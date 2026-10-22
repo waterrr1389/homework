@@ -3,7 +3,8 @@ def greet(name):
 
 
 def farewell(name):
-    print("Bye " + name)
+    """Print a farewell message."""
+    print(f"Goodbye, {name}")
 
 
 if __name__ == "__main__":
